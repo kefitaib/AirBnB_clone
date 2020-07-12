@@ -1,0 +1,84 @@
+.filters {
+	color: white;
+	height: 70px;
+	width: 100%;
+	border: 1px solid #DDDDDD;
+	border-radius: 4px;
+	position: relative;
+}
+
+.filters button {
+	color: #FFF;
+    font-size: 18px;
+    background-color: #FF5A5F;
+    height: 48px;
+    width: 20%;
+    border-radius: 4px;
+    float: right;
+    margin-right: 30px;
+    border: none;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+}
+
+.filters button:hover {
+    opacity:0.9;
+}
+
+.locations {
+	border-right: 1px solid #DDDDDD;
+}
+
+.amenities, .locations {
+	color: #000;
+	height: 100%;
+	width: 25%;
+	float: left;
+	margin-left: 50px;
+	display: inline-block; 
+}
+
+.locations h3, , .amenities h3{
+	font-weight: 600;
+	line-height: 0;
+}
+
+.locations h4, .amenities h4{
+	font-weight: 400;
+	font-size: 14px;
+	margin-top: -15px;
+}
+
+
+.popover {
+	background-color: #FAFAFA;
+	width: 120%;
+	border: 1px solid #DDDDDD;
+	border-radius: 4px;
+	margin-left: -50px;
+	margin-top: -7px;
+}
+
+.st, .am {
+	display: none;
+}
+
+.locations:hover .st {
+	display: block;
+}
+
+.amenities:hover .am {
+	display: block;
+}
+
+s.popover ul {
+	list-style: none;
+}
+
+
+
+
+
+
+
